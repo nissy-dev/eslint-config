@@ -1,4 +1,4 @@
-type Foo = {
+export type Foo = {
   bar: string;
 };
 
@@ -25,4 +25,4 @@ const bar: BarInterface = new Bar('bar');
 bar.getName();
 
 // @ts-ignore
-const num: number = '10';
+export const num: number = '10';
